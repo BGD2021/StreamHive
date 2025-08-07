@@ -1,0 +1,41 @@
+{
+    "global": {
+        "model_root": "/home/cat/workspace/rknn_usb_threadPool/weights/yolov5s_coco.rknn",
+        "thread_num": 4
+    },
+    "rtsp_server": {
+        "port": 3554
+    },
+    "streams": [
+        // {
+        //     "id": "stream_001",
+        //     "name": "前门摄像头",
+        //     "input_url": "http://devimages.apple.com.edgekey.net/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        //     "output": {
+        //         "app": "live",
+        //         "stream": "camera01"
+        //     },
+        //     "enabled": true
+        // }
+        {
+            "id": "stream_002", 
+            "name": "后门摄像头",
+            "input_url": "rtsp://admin:qweasdzxc12@192.168.10.105/h264/ch1/main/av_stream",
+            "output": {
+                "app": "live",
+                "stream": "camera02"
+            },
+            "enabled": true
+        },
+        {
+            "id": "stream_003",
+            "name": "车库摄像头", 
+            "input_url": "rtsp://admin:qweasdzxc12@192.168.10.108/h264/ch1/main/av_stream",
+            "output": {
+                "app": "live",
+                "stream": "camera03"
+            },
+	    "enable":true
+        }
+    ]
+}
