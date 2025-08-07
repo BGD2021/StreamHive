@@ -116,6 +116,7 @@ sudo ./StreamHive -f ../config.json
 ---
 
 ## 🖥️ Frontend Preview
+[https://github.com/your-username/StreamHive_QT](https://github.com/your-username/StreamHive_QT)
 
 * 项目前端基于 Qt 开发，通过 ZeroMQ 连接后端推理结果；
 * 支持：
@@ -125,7 +126,7 @@ sudo ./StreamHive -f ../config.json
   * 多摄像头画面切换；
   * 日志查看与配置更新。
 
-👉 *Qt 项目路径（待补充）*
+
 
 ---
 
