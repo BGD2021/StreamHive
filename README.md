@@ -116,7 +116,7 @@ sudo ./StreamHive -f ../config.json
 ---
 
 ## 🖥️ Frontend Preview
-[https://github.com/your-username/StreamHive_QT](https://github.com/your-username/StreamHive_QT)
+[https://github.com/BGD2021/StreamHive_QT](https://github.com/BGD2021/StreamHive_QT)
 
 * 项目前端基于 Qt 开发，通过 ZeroMQ 连接后端推理结果；
 * 支持：
